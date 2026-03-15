@@ -6,16 +6,19 @@ Route::get('/', function () {
     return view('page.beranda' ,[
         "title" => "Beranda"
     ]);
-});
-Route::get('/beranda', function () {
-    return view('page.beranda' ,[
-        "title" => "Beranda"
-    ]);
-});
+})->name('beranda');
+
+Route::redirect('/beranda', '/');
 
 Route::get('/blog', function () {
     return view('page.blog' ,[
-        "title" => "Blok"
+        "title" => "Tips & Artikel"
+    ]);
+});
+
+Route::get('/layanan', function () {
+    return view('page.layanan' ,[
+        "title" => "Layanan"
     ]);
 });
 
