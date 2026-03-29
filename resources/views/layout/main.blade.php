@@ -6,9 +6,10 @@
     <title>Remaja Taylor - Toko Jahit</title>
 
     @vite(['resources/css/app.css', 'resources/js/app.js'])
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
 <body class="bg-white text-gray-900">
-
+    
     <!-- Navbar -->
     <nav class="bg-gradient-to-r from-indigo-600 to-purple-600 text-white shadow-lg sticky top-0 z-50">
         <div class="container mx-auto flex justify-between items-center py-4 px-6">

@@ -22,14 +22,16 @@ Route::get('/layanan', function () {
     ]);
 });
 
-
 Route::get('/about', function () {
     return view('page.about' ,[
         "title" => "tentang"
     ]);
 });
 
-
-// admin 
+Route::get('/tes', function () {
+    return view('page.tes' ,[
+        "title" => "tes"
+    ]);
+});
 
 
