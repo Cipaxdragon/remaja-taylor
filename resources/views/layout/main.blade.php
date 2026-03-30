@@ -7,11 +7,30 @@
 
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <style>
+        .nav-link {
+            position: relative;
+            transition: color 0.3s ease;
+        }
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background-color: currentColor;
+            transition: width 0.3s ease;
+        }
+        .nav-link:hover::after {
+            width: 100%;
+        }
+    </style>
 </head>
 <body class="bg-white text-gray-900">
     
     <!-- Navbar -->
-    <nav class="bg-gradient-to-r from-indigo-600 to-purple-600 text-white shadow-lg sticky top-0 z-50">
+    <nav class="bg-linear-to-r from-indigo-600 to-purple-600 text-white shadow-lg sticky top-0 z-50">
         <div class="container mx-auto flex justify-between items-center py-4 px-6">
             <a class="text-3xl font-extrabold flex items-center gap-2" href="/">
                 <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
@@ -20,11 +39,11 @@
                 Remaja Taylor
             </a>
             <div class="hidden md:flex space-x-8">
-                <a class="hover:text-gray-200 transition duration-300" href="/">Beranda</a>
-                <a class="hover:text-gray-200 transition duration-300" href="/layanan">Layanan</a>
-                <a class="hover:text-gray-200 transition duration-300" href="/blog">Tips & Artikel</a>
-                <a class="hover:text-gray-200 transition duration-300" href="/about">Tentang</a>
-                <a class="hover:text-gray-200 transition duration-300" href="#kontak">Kontak</a>
+                <a class="nav-link hover:text-gray-200 transition duration-300" href="/">Beranda</a>
+                <a class="nav-link hover:text-gray-200 transition duration-300" href="/layanan">Layanan</a>
+                <a class="nav-link hover:text-gray-200 transition duration-300" href="/blog">Tips & Artikel</a>
+                <a class="nav-link hover:text-gray-200 transition duration-300" href="/about">Tentang</a>
+                <a class="nav-link hover:text-gray-200 transition duration-300" href="#kontak">Kontak</a>
             </div>
             <button class="md:hidden text-white focus:outline-none" id="navbar-toggle">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">

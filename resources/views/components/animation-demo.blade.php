@@ -85,7 +85,7 @@
 
         <div 
             :class="animationClass"
-            class="mt-4 p-6 bg-gradient-to-r from-indigo-500 to-purple-600 text-white rounded-lg text-center">
+            class="mt-4 p-6 bg-linear-to-r from-indigo-500 to-purple-600 text-white rounded-lg text-center">
             
             <p class="text-xl font-bold">Animasi: <span x-text="animationClass"></span></p>
         </div>

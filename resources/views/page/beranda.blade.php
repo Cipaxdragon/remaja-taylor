@@ -2,7 +2,8 @@
 @section('container')
 
     <!-- Hero Section -->
-    <section class="hero-section bg-gradient-to-r from-indigo-600 to-purple-600 text-white py-20">
+    <section class="hero-section bg-linear-to-r from-indigo-600 to-purple-600 text-white py-20">
+        <x-header> Home</x-header>
         <div class="container mx-auto px-6 flex flex-col md:flex-row items-center gap-8">
             <div class="flex-1">
                 <h1 class="text-5xl font-bold mb-4">Remaja Taylor</h1>
@@ -136,7 +137,7 @@
     </section>
 
     <!-- CTA Section -->
-    <section id="kontak" class="bg-gradient-to-r from-indigo-600 to-purple-600 text-white py-16 shadow-glow">
+    <section id="kontak" class="bg-linear-to-r from-indigo-600 to-purple-600 text-white py-16 shadow-glow">
         <div class="container mx-auto px-6 text-center">
             <h2 class="text-4xl font-bold mb-4">Siap Mewujudkan Gaya Impian Anda?</h2>
             <p class="text-xl text-gray-100 mb-8">Hubungi kami sekarang untuk konsultasi gratis dan penawaran spesial.</p>

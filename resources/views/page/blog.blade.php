@@ -2,7 +2,7 @@
 @section('container')
 
     <!-- Page Header -->
-    <section class="bg-gradient-to-r from-indigo-600 to-purple-600 text-white py-12">
+    <section class="bg-linear-to-r from-indigo-600 to-purple-600 text-white py-12">
         <div class="container mx-auto px-6">
             <h1 class="text-4xl font-bold">Layanan & Tips Jahit</h1>
             <p class="text-gray-200 mt-2">Pelajari berbagai layanan kami dan tips perawatan pakaian jahit</p>
@@ -11,6 +11,14 @@
 
     <!-- Blog Posts -->
     <section class="py-16 bg-gray-50">
+         <x-header>
+              <x-slot:title>
+                Judul Artikel
+             </x-slot:title>
+            <x-slot:desc>
+                ini adalah halama artikel yang bisa anda baca baca bos
+             </x-slot:desc>
+         </x-header>
         <div class="container mx-auto px-6">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                 

@@ -28,10 +28,4 @@ Route::get('/about', function () {
     ]);
 });
 
-Route::get('/tes', function () {
-    return view('page.tes' ,[
-        "title" => "tes"
-    ]);
-});
-
 

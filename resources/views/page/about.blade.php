@@ -2,7 +2,8 @@
 @section('container')
 
     <!-- Page Header -->
-    <section class="bg-gradient-to-r from-indigo-600 to-purple-600 text-white py-12">
+     <x-header> tentang</x-header>
+    <section class="bg-linear-to-r from-indigo-600 to-purple-600 text-white py-12">
         <div class="container mx-auto px-6">
             <h1 class="text-4xl font-bold">Tentang Remaja Taylor</h1>
             <p class="text-gray-200 mt-2">Mengenal lebih dekat tentang toko jahit kami yang telah dipercaya selama bertahun-tahun</p>
@@ -107,42 +108,42 @@
             <h2 class="text-4xl font-bold text-center mb-12">Keunggulan Remaja Taylor</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div class="flex gap-4">
-                    <div class="text-4xl flex-shrink-0">🏆</div>
+                    <div class="text-4xl shrink-0">🏆</div>
                     <div>
                         <h3 class="text-xl font-bold mb-2">Berpengalaman 12+ Tahun</h3>
                         <p class="text-gray-700">Pengalaman panjang melayani ribuan pelanggan dengan tingkat kepuasan yang sangat tinggi.</p>
                     </div>
                 </div>
                 <div class="flex gap-4">
-                    <div class="text-4xl flex-shrink-0">🎨</div>
+                    <div class="text-4xl shrink-0">🎨</div>
                     <div>
                         <h3 class="text-xl font-bold mb-2">Tim Desainer Profesional</h3>
                         <p class="text-gray-700">Tim ahli siap membantu mewujudkan desain impian Anda dengan konsultasi gratis.</p>
                     </div>
                 </div>
                 <div class="flex gap-4">
-                    <div class="text-4xl flex-shrink-0">✨</div>
+                    <div class="text-4xl shrink-0">✨</div>
                     <div>
                         <h3 class="text-xl font-bold mb-2">Bahan Berkualitas Premium</h3>
                         <p class="text-gray-700">Menggunakan bahan terbaik dari supplier terpercaya domestik dan impor terkenal.</p>
                     </div>
                 </div>
                 <div class="flex gap-4">
-                    <div class="text-4xl flex-shrink-0">⚙️</div>
+                    <div class="text-4xl shrink-0">⚙️</div>
                     <div>
                         <h3 class="text-xl font-bold mb-2">Peralatan Modern</h3>
                         <p class="text-gray-700">Dilengkapi mesin jahit dan peralatan modern untuk hasil jahitan yang presisi dan berkualitas.</p>
                     </div>
                 </div>
                 <div class="flex gap-4">
-                    <div class="text-4xl flex-shrink-0">💯</div>
+                    <div class="text-4xl shrink-0">💯</div>
                     <div>
                         <h3 class="text-xl font-bold mb-2">Kontrol Kualitas Ketat</h3>
                         <p class="text-gray-700">Setiap produk melalui kontrol kualitas yang ketat untuk memastikan kesempurnaan hasil.</p>
                     </div>
                 </div>
                 <div class="flex gap-4">
-                    <div class="text-4xl flex-shrink-0">⏱️</div>
+                    <div class="text-4xl shrink-0">⏱️</div>
                     <div>
                         <h3 class="text-xl font-bold mb-2">Waktu Pengerjaan Tepat</h3>
                         <p class="text-gray-700">Kami berkomitmen menyelesaikan pesanan tepat waktu tanpa mengorbankan kualitas.</p>

@@ -2,7 +2,7 @@
 @section('container')
 
     <!-- Page Header -->
-    <section class="bg-gradient-to-r from-indigo-600 to-purple-600 text-white py-12">
+    <section class="bg-linear-to-r from-indigo-600 to-purple-600 text-white py-12">
         <div class="container mx-auto px-6">
             <h1 class="text-4xl font-bold">Layanan Kami</h1>
             <p class="text-gray-200 mt-2">Berbagai layanan jahit premium untuk memenuhi kebutuhan fashion Anda</p>
@@ -16,7 +16,7 @@
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
                 
                 <!-- Service 1 -->
-                <div class="service-card bg-gradient-to-br from-indigo-50 to-indigo-100 rounded-lg p-8">
+                <div class="service-card bg-linear-to-br from-indigo-50 to-indigo-100 rounded-lg p-8">
                     <div class="text-6xl mb-4">👗</div>
                     <h3 class="text-2xl font-bold mb-4">Jahit Custom</h3>
                     <p class="text-gray-700 mb-4">Buat pakaian sesuai dengan desain dan ukuran pribadi Anda menggunakan bahan berkualitas premium pilihan.</p>
@@ -41,7 +41,7 @@
                 </div>
 
                 <!-- Service 2 -->
-                <div class="service-card bg-gradient-to-br from-purple-50 to-purple-100 rounded-lg p-8">
+                <div class="service-card bg-linear-to-br from-purple-50 to-purple-100 rounded-lg p-8">
                     <div class="text-6xl mb-4">🎨</div>
                     <h3 class="text-2xl font-bold mb-4">Desain & Konsultasi</h3>
                     <p class="text-gray-700 mb-4">Tim desainer profesional siap membantu mewujudkan visi fashion Anda dengan konsultasi gratis.</p>
@@ -66,7 +66,7 @@
                 </div>
 
                 <!-- Service 3 -->
-                <div class="service-card bg-gradient-to-br from-pink-50 to-pink-100 rounded-lg p-8">
+                <div class="service-card bg-linear-to-br from-pink-50 to-pink-100 rounded-lg p-8">
                     <div class="text-6xl mb-4">✂️</div>
                     <h3 class="text-2xl font-bold mb-4">Perbaikan & Modifikasi</h3>
                     <p class="text-gray-700 mb-4">Memperbaiki dan memodifikasi pakaian lama Anda agar terlihat seperti baru dengan hasil rapi.</p>
@@ -270,7 +270,7 @@
     </section>
 
     <!-- CTA Section -->
-    <section class="bg-gradient-to-r from-indigo-600 to-purple-600 text-white py-16">
+    <section class="bg-linear-to-r from-indigo-600 to-purple-600 text-white py-16">
         <div class="container mx-auto px-6 text-center">
             <h2 class="text-4xl font-bold mb-4">Tertarik dengan Layanan Kami?</h2>
             <p class="text-xl text-gray-200 mb-8">Hubungi kami sekarang atau kunjungi toko kami untuk konsultasi gratis!</p>
